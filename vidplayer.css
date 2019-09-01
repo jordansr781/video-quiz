@@ -1,0 +1,132 @@
+.title {
+	text-align: center;
+	font-family:Helvetica;
+	font-size: 50px;
+}
+.container {
+	margin: 0 auto;
+	width: 800px;
+	position: relative;
+}
+.button {
+    border: none;
+    border-radius: 9px;
+    padding: 11px 9px;
+    margin-top: 10px;
+    text-align: center;
+    font-family:Helvetica;
+    font-size: 18px;
+    background-color: RGB(250,250,250, 0.5);
+}
+.button:hover {
+	cursor: pointer;
+	background-color:RGB(170,170,170, 0.7) !important;
+}
+
+/*video and control styles*/
+#vid {
+	width: 100%;
+	height:450px;
+	background-color: #BABABA;
+}
+#playvid {
+	font-size: 30px;
+    position: relative;
+    top: 40%;
+    background-color: RGB(250,250,250, 0.5);
+}
+#play {
+	color: green;
+	margin-left: 5px;
+}
+.opaque {
+	opacity: 0.3;
+}
+
+/*Quiz styles*/
+#quiz {
+	position:absolute;
+	text-align: center;
+	width:800px;
+	height: 450px;
+	top:92px;
+}
+#submitButton {
+	background-color: #4CAF50;
+    border: none;
+    border-radius: 14px;
+    color: white;
+    font-size: 15px;
+    font-family: Helvetica;
+    padding: 12px 22px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 26px;
+}
+#submitButton:hover {
+	cursor: pointer;
+	background-color: #1B8F00;
+}
+#questionText {
+	padding-top:5px;
+	font-size:30px;
+	font-family:Garamond;
+	text-align:center;
+}
+#choices {
+	padding:20px;
+    font-size: 20px;
+    padding-left:39%;
+    font-family: Garamond;
+    text-align: left;
+    background-color: RGB(250,250,250, 0.4)
+}
+#questionResult {
+	margin-top: 66px;
+    text-align: center;
+    padding: 20px;
+    font-size: 29px;
+    background-color: rgb(250,250,250,0.5);
+}
+#quizResults {
+	text-align: center;
+    position: relative;
+    top: 97px;
+    padding: 20px;
+    background-color: RGB(250, 250, 250, 0.5);
+}
+#score {
+	padding:30px 0;
+	font-size:40px;
+}
+.questionTitle {
+	font-size: 50px;
+	font-family:Garamond;
+	text-align: center;
+	padding-top: 20px;
+}
+.choice {
+	margin:12px;
+}
+.incorrect {
+	font-family:Garamond;
+	font-size:30px;
+}
+.spin {
+	margin-left:5px;
+}
+.warning {
+	
+    color: red;
+    font-size: 18px;
+    font-family: Helvetica;
+    padding: 2px;
+    background-color: RGB(250,250,250, 0.3)
+}
+.endTitle {
+	padding-top: 20px;
+}
+.retake {
+	font-size: 18px;
+	background-color: RGB(165,165,165,0.5);
+}
